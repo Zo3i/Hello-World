@@ -1,7 +1,16 @@
 {
-  "name": "@hyperlane-xyz/monorepo",
+  "name": "jojo-hello-world",
   "description": "A yarn workspace of core Hyperlane packages",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zo3i/Hello-World"
+  },
+  "homepage": "https://github.com/Zo3i/Hello-World#readme",
+  "bugs": {
+    "url": "https://github.com/Zo3i/Hello-World/issues"
+  },
+
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.2.1",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
@@ -16,7 +25,7 @@
     "@changesets/cli": "^2.26.2"
   },
   "packageManager": "yarn@4.0.2",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "yarn workspaces foreach --all --parallel --topological run build",
     "clean": "yarn workspaces foreach --all --parallel run clean",
